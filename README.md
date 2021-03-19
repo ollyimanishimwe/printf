@@ -26,7 +26,7 @@
       <li>Twitter: https://twitter.com/OllyImanishimwe</li>
       <li>Github: https://github.com/ollyimanishimwe</li>
     </ul>
-      <li>Nshimyumukiza Christian 
+	<li>Nshimyumukiza Christian
     <ul>
       <li>Twitter: https://twitter.com/rw_crispy</li>
       <li>Github: https://github.com/crispy-rw</li>
