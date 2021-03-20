@@ -21,7 +21,7 @@ int _printf(const char *format, ...)
 		{
 			print += _putchar(format[counter]);
 		}
-		else if(format[counter + 1])
+		else
 		{
 		counter++;
 			if (format[counter] == 'c')
