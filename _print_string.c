@@ -3,18 +3,22 @@
 /**
  * print_string - prints a string to stdout
  * @str: string to be printed
- * Return: no. of characters printed on success, or 0 on failure
+ * Return: nnumber of characters printed on success
  */
+
 int print_string(char *str)
 {
-	int chars_printed = 0;
+	int print = 0;
 
-	if (str == (char *)0)
-		return (print_string("(null)"));
-	while (str && str[chars_printed])
+	if (str == NULL)
 	{
-		_putchar(str[chars_printed]);
-		chars_printed++;
+		write(1, "(null)", 6);
+		return (6);
 	}
-	return (chars_printed);
+	while (str && str[print])
+	{
+		_putchar(str[print]);
+		print++;
+	}
+	return (print);
 }

@@ -28,6 +28,8 @@ int _printf(const char *format, ...)
 				print += _putchar(va_arg(args, int));
 			else if (format[counter] == 's')
 				print += print_string(va_arg(args, char *));
+			else if (format[counter] == '%')
+				print += _putchar('%');
 			else if (format[counter] == 'd' || format[counter] == 'i')
 				print += print_num(va_arg(args, int));
 			else
