@@ -14,7 +14,6 @@ int _printf(const char *format, ...)
 	int counter = 0, print = 0;
 
 	va_start(args, format);
-
 	while (format && format[counter])
 	{
 		if (format[counter] != '%')
@@ -34,9 +33,8 @@ int _printf(const char *format, ...)
 				print += _putchar('%');
 			else
 			{
-				_putchar('%');
-				_putchar(format[counter]);
-				print += 2;
+				print += _putchar('%');
+				print += _putchar(format[counter]);
 			}
 		}
 		counter++;
