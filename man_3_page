@@ -1,5 +1,6 @@
 .\" Manpage for _printf.
-.\" Contact nshimyumukizachristian54@gmail.com to correct errors or typos.
+.\" To correct errors or typos Contact:
+.\"  nshimyumukizachristian54@gmail.com or ollyimanishimwe@gmail.com
 .TH man 3 "19 March 2021" "1.0" "_printf man page"
 .SH NAME
 _printf \- formatted output conversion
